@@ -84,6 +84,37 @@
      src="http://cdn.shopify.com/s/files/1/1035/5187/t/5/assets/slide1.jpg?13349937910123506925">
 </img>
 
+
+<div class="footer-menu"> <!-- Cant have this be inline as id tag for some reason (makes margins around nested container)-->
+  <div class="ui three column grid container">
+    <div class="column"> Navigation
+      <hr/> <!-- this is a horz. rule tag (used to show thematic changes)-->
+      <div class="ui list">
+        <div class="ui item">About Us</div>
+        <div class="ui item">Videos</div>
+      </div>
+    </div>
+    <div class="column"> Main Menu
+      <hr/>
+      <div class="ui list">
+        <div class="ui item">Men</div>
+        <div class="ui item">Women</div>
+      </div>
+    </div>
+    <div class="column"> Connect
+      <hr/>
+      <div class="ui list">
+        <div class="ui item">Sign up for latest updates
+          <div class="ui action input" style="top-padding: 10px">
+            <input placeholder="Enter email address" type="text">
+            <button class="ui black button">Join</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
   $('.ui.dropdown')
       .dropdown({

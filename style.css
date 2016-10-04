@@ -9,3 +9,10 @@
   box-shadow: none;
   border: none;
 }
+
+.footer-menu {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
